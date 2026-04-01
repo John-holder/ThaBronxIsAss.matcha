@@ -25,8 +25,7 @@ if offset then
             task.wait(0.1)
         end
     end)
-    
-    notify("InstantInteract Loaded", "Success", 3)
+    print("InstantInteract Loaded")
 else
-    notify("InstantInteract Error", "Error", 5)
+    print("InstantInteract Error")
 end
