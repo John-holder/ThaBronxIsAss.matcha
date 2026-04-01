@@ -1,4 +1,5 @@
 -- Made originally by 987402090680827914 (@Lost)
+print("yes")
 local ok, res = pcall(function()
     return game:HttpGet("https://offsets.ntgetwritewatch.workers.dev/offsets.json")
 end)
