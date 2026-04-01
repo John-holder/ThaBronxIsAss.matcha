@@ -1,5 +1,4 @@
 -- Made originally by 987402090680827914 (@Lost)
-print("yes")
 local ok, res = pcall(function()
     return game:HttpGet("https://offsets.ntgetwritewatch.workers.dev/offsets.json")
 end)
@@ -23,7 +22,7 @@ if offset then
                     end)
                 end
             end
-            task.wait(0.1)
+            task.wait(1.5)
         end
     end)
     print("InstantInteract Loaded")
