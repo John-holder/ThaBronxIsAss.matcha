@@ -24,8 +24,3 @@ for i=1, #descendants do
         patchPrompt(prompt)
     end
 end
-workspace.DescendantAdded:Connect(function(prompt)
-    if prompt.ClassName == "ProximityPrompt" then
-        patchPrompt(prompt)
-    end
-end)
